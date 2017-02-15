@@ -1,0 +1,6 @@
+framework module Pods_Baby_Beat {
+  umbrella header "Pods-Baby Beat-umbrella.h"
+
+  export *
+  module * { export * }
+}
