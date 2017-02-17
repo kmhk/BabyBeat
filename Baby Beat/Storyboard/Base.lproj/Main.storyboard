@@ -192,7 +192,7 @@
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                                         </variation>
                                                         <connections>
-                                                            <action selector="startRecording:" destination="1vl-rH-RWy" eventType="touchUpInside" id="vrf-Vj-pDV"/>
+                                                            <action selector="mBtnStopAction:" destination="1vl-rH-RWy" eventType="touchUpInside" id="hrd-LZ-1fl"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>

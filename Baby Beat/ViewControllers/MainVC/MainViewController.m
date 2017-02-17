@@ -264,6 +264,7 @@
                 [self setupRecorder];
                 [self setSessionPlayAndRecord];
                 [self.mViewPlotVisualisation clear];
+				[startRecordingBtn setTitle:@"STOP" forState:UIControlStateNormal];
                 
                 self.timer = [NSTimer scheduledTimerWithTimeInterval: 1.0
                                                               target: self
@@ -280,6 +281,8 @@
 
 - (IBAction)mBtnStopAction:(id)sender //Stop Recording Button
 {
+	[startRecordingBtn setTitle:@"RECORD" forState:UIControlStateNormal];
+	
     mBtnOpen.hidden = false;
     
     
